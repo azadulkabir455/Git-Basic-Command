@@ -4,6 +4,7 @@ Git Initial Command:
 2. git status
 3. git --version
 4. rm -rf .git  //Remove git folder
+5. git status -s
 
 Git Configuration Command:
 
@@ -46,6 +47,7 @@ Git Branch Command:
 7. git brach --no-merged
 8. git branch -d `branchName`             //Locally deleted
 9. git push origin --delete `branchName`  //Deledted on github
+10. git checkout -b "branchName"          // Create brach and switch to the created branch
 
 Git Compare Command
 
@@ -53,7 +55,7 @@ Git Compare Command
 2. git diff --staged `filename`  //Difference Stages file code between last commit file to now
 3. git reset `fileName`          //Stages file to unstages file
 4. git checkout `fileName`       //Clear file to last commit
-5. git checkout `fileName .`     //For all file
+5. git checkout -f     //For all file
 6. git rm --cached `fileName`    //Tracked file to Untracked file
 
 Git Command For Github
