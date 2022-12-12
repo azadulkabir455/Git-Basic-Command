@@ -72,3 +72,31 @@ Git Extra Command
 1 .gitignore
 2. git rm `fileName`
 3. git mv `fileName1` `fileName2`  //Change the filename & fileName2 is changed name.
+
+****NPM COMAND****
+
+***npm install***
+1. npm install                             //Install for all package
+2. npm install 'package Name'              //Install single package
+3. npm install --save 'package name'       //For Production
+4. npm install --save-dev 'package name'   //For development
+5. npm install --global 'packege name'     //For global instalation
+6. npm root -g                             //For global package directory
+
+***npm update***
+7. npm update //Update for All package
+8. npm update 'package name' //Update for specify package
+
+***npm view***
+9. npm list --depth=0                    //View for local packages list
+10. npm list -g --depth=0                //View for global packages list
+11. npm view 'package name' version      //See latest version of the packege
+12. npm view 'package name' version      //See all version of the packege
+13. npm install 'package name'@'version' //Install specify version packges
+14. npm outdated                         //For for check if packages is outdated
+
+***npm uninstall***
+15. npm uninstall 'package name'                  //Uninstall package
+16. npm uninstall -S/--save 'package name'        //Remove reference from package.json dependencies 
+16. npm uninstall -D/--save-dev 'package name'    //Remove reference from package.json dev dependencies
+17. npm uninstall -g/--global 'package name'      //Remove Global package name  
